@@ -14,7 +14,7 @@ export const SideMenu = styled.aside`
 function App() {
 
 	let [data, setData] = useState([]);
-	let [selectedPost, setSelectedPost] = useState([undefined]);
+	let [selectedPost, setSelectedPost] = useState(undefined);
 	const [image, setImage] = useState(undefined);
 
 	const handleClick = (postClicked) => {
